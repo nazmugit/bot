@@ -10,7 +10,7 @@ Utils.draw_header()
 Utils.draw_log(status=True, datetime=Utils.get_current_datetime(), message='Initializing system.')
 
 # how many async instances to launch
-instances = 1
+instances = 10
 
 # init watcher with instances
 Watcher(instances)
